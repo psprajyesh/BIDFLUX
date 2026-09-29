@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment — never commit secrets
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Runtime data
+backend/bidflux.db
+backend/bidflux.db-journal
+backend/storage/
+backend/uploads/
+*.sqlite
+*.sqlite3
+data/
+
+# Test / coverage
+.coverage
+htmlcov/
+coverage/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.err
+logs/
+
+# Verification artefacts (demo resets these)
+frontend/.opencode/
+frontend/CLAUDE.local.md
+backend/.coverage
